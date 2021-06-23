@@ -1,11 +1,12 @@
-type ButtonProps = {
-    texto ?: string;
-    children ?: string;
-}
+import { ButtonHTMLAttributes } from 'react'
+
+import '../styles/button.scss'
+
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>
 
 export function Button(props : ButtonProps){
 	return(
-		<button>{props.texto || 'Texto Padrão'} {props.children}</button>
+		<button className='button' {...props} />
 	)
 }
 
