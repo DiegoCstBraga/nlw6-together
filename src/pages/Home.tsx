@@ -40,6 +40,11 @@ export function Home() {
 			return
 		}
 
+		if (roomRef.val().endedAt) {
+			alert(`Room already closed at ${roomRef.val().endedAt} Brasília time zone`)
+			return
+		}
+
 		history.push(`/rooms/${roomCode}`)
 	}
 
