@@ -37,7 +37,7 @@ Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
 $ git clone https://github.com/DiegoCstBraga/nlw6-together.git
-$ cd nlw-06-reactjs
+$ cd nlw6-together
 ```
 
 Para iniciá-lo, siga os passos abaixo:
